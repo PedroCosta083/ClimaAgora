@@ -36,7 +36,7 @@ const showWeatherData = async (city) => {
     humidityElement.innerText = `${data.main.humidity}%`;
     windElement.innerText = `${data.wind.speed}km/h`;
     weatherContainer.classList.remove("hide");
-    backgroundIMG.setAttribute("src",)
+    
 }
 
 
